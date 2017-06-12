@@ -169,8 +169,8 @@ nav a, nav span {
 /* || image settings */
 img {
     display: block;
-    margin: auto;
-    width: 80%;
+    margin: inherit;
+    width: 100%;
 }
 
 /* || main layout */
