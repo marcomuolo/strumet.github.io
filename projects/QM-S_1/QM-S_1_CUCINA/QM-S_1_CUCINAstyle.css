@@ -39,7 +39,7 @@ p, input, li {
 h1 {
   font-size: 4rem;
   text-align: center;
-   font-weight: 550;
+   font-weight: 500;
 }
 
 h2 {
@@ -170,7 +170,7 @@ nav a, nav span {
 img {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 80%;
 }
 
 /* || main layout */
