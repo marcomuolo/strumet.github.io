@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 15px;
+  background-color:#a0e248;
+}
+
+h3{
+  font-family:'Myriad Pro Light';
+  color:black;
+  font-style: normal;
+  text-align: center;
+}
+
+
+
+#primo_h1, p {
+  font-family: 'Myriad Pro Light';
+  color: black;
+  text-align: center;
+}
+
+p.seconda_parte {
+  font-family: sans-serif;
+}
+
+p > strong {
+  color: #383838;
+}
+
+p  em {
+  font-variant: small-caps;
+}
+=======
+h1{
+  color: red;
+}
+
+img {
+  max-height: 200px;
+
+}
+>>>>>>> origin/master
