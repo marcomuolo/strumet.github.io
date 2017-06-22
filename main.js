@@ -136,6 +136,12 @@ function set_menu_position() {
 	strumet_header = document.getElementById('strumet_header');
 	header_width = strumet_header.offsetWidth >= nav_width ? nav_width :
 		strumet_header.offsetWidth;
+	header_padding = window.getComputedStyle(strumet_header).getPropertyValue('padding-left');
+	header_padding_int = parseInt(header_padding.substring(0,header_padding.length));
+	header_width_net = header_width - (header_padding_int * 2);
+	console.log(header_width);
+	console.log(header_padding_int);
+	console.log(header_width_net);
 	liTopHome = document.getElementById('li_top_home');
 	liTopAbout = document.getElementById('li_top_about');
 	actual_nav_width = liTopHome.offsetWidth + liTopAbout.offsetWidth;
@@ -144,7 +150,9 @@ function set_menu_position() {
 		liTop = document.getElementById(liTopId);
 		actual_nav_width += liTop.offsetWidth;
 	}
-	li_add_padding = Math.floor(((header_width - actual_nav_width) / 7 ) / 2);
+	console.log(actual_nav_width);
+	li_add_padding = Math.floor(((header_width_net - actual_nav_width) / 7 ) / 2) - 2;
+	console.log(li_add_padding);
 	liTopHome.style = 'padding: 0 ' + li_add_padding + 'px;';
 	liTopAbout.style = 'padding: 0 ' + li_add_padding + 'px;';
 	for (key in prj_group) {
