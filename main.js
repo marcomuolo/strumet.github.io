@@ -130,8 +130,27 @@ document.head.appendChild(link_style);
 document.body.insertBefore(header, document.body.firstChild);
 document.body.appendChild(footer);
 
+var nav_width = 900;
+
 function set_menu_position() {
+	strumet_header = document.getElementById('strumet_header');
+	header_width = strumet_header.offsetWidth >= nav_width ? nav_width :
+		strumet_header.offsetWidth;
+	liTopHome = document.getElementById('li_top_home');
+	liTopAbout = document.getElementById('li_top_about');
+	actual_nav_width = liTopHome.offsetWidth + liTopAbout.offsetWidth;
 	for (key in prj_group) {
+		liTopId = 'li_top_' + prj_group[key].label;
+		liTop = document.getElementById(liTopId);
+		actual_nav_width += liTop.offsetWidth;
+	}
+	li_add_padding = Math.floor(((header_width - actual_nav_width) / 7 ) / 2);
+	liTopHome.style = 'padding: 0 ' + li_add_padding + 'px;';
+	liTopAbout.style = 'padding: 0 ' + li_add_padding + 'px;';
+	for (key in prj_group) {
+		liTopId = 'li_top_' + prj_group[key].label;
+		liTop = document.getElementById(liTopId);
+		liTop.style = 'padding: 0 ' + li_add_padding + 'px;';
 		ulId = 'ul_sub_' + prj_group[key].label;
 		liId = 'li_top_' + prj_group[key].label;
 		ul = document.getElementById(ulId);
