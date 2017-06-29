@@ -127,10 +127,73 @@ p.presentazione{
   font-style: italic;
 }
 
+p.descrizionecamera{
+  position: relative;
+  font-size: 180%;
+  margin-top: 6%;
+  font-style: italic;
+}
+
 div.camera{
 content:url(imm/camera.jpg);
   position: relative;
   max-width:70%;
   max-height:70%;
-  margin-left: 15%
+  margin-left: 15%;
+}
+
+p.arredi{
+  position: relative;
+  font-size: 250%;
+  margin-top: 6%;
+  text-align: center;
+  font-weight: bold;
+}
+
+div.immSx{
+  overflow: hidden;
+  margin-top: 6%;
+  font-size: 170%;
+}
+
+span.nameSx{
+  margin-left: 3%;
+}
+
+span.descSx{
+  margin-left: 3%;
+  text-decoration: underline;
+}
+
+span.listaSx{
+  margin-left: 15%;
+}
+
+img.imgSx{
+  float: left;
+  height: 60%;
+}
+
+div.immDx{
+  overflow: hidden;
+  margin-top: 6%;
+  font-size: 170%;
+}
+
+img.imgDx{
+  float: right;
+  height: 60%;
+}
+
+span.nameDx{
+  margin-left: 20%;
+}
+
+span.descDx{
+  margin-left: 20%;
+  text-decoration: underline;
+}
+
+span.listaDx{
+  margin-left: 40%;
 }
