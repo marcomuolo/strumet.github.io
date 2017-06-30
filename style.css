@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i');
 
+#strumet_body{
+	margin: 0;
+}
+
+#strumet_header{
+	text-align: center;
+	padding: 10px;
+	border: solid #272727;
+	border-width: 0 0 1px 0;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: initial;
+	color: #272727;
+	background: white;
+	display: block;
+}
+
 #strumet_header h1 {
 	font-weight: 300;
 	letter-spacing: .1em;
 	font-size: 2.25em;
 	margin: 10px 0 5px;
 	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	color: black;
 }
 
 #strumet_header a:link,
@@ -22,26 +41,20 @@
 	letter-spacing: 0.1em;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 0px;
+	font-size: inherit;
 }
 
 #strumet_header p.subheading em {
 	font-size: 12px;
 }
 
-#strumet_header{
-	text-align: center;
-	padding: 10px;
-	border: solid #272727;
-	border-width: 0 0 1px 0;
-	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
-	color: #272727;
-	background: white;
-}
 
 #strumet_header nav {
 	display: inline-block;
 	margin: 0 auto;
+	background-color: inherit;
+	height: inherit;
+	padding: 0px;
 }
 
 #strumet_header ul#nav {
@@ -50,6 +63,8 @@
 	position: relative;
 	font-size: 12px;
 	z-index: 500;
+	font-family: unset;
+	display: inherit;
 }
 
 #strumet_header #nav li.top {
@@ -57,21 +72,41 @@
 	float: left;
 	margin: 0 1px;
 	background: #fff;
+	border: solid rgb(39, 39, 39);
+	border-width: 0 0 0 1px;
+	font-size: inherit;
+	line-height: inherit;
 }
+
+#strumet_header #nav li.top:first-child {
+	border-width: 0 0 0 0;
+}
+
 
 #strumet_header #nav li a.top_link {
 	display: block;
 	float: left;
 	cursor: pointer;
+	font-size: inherit;
+	height: inherit;
+	line-height: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	font-weight: inherit;
 }
 
 
 #strumet_header #nav li a.top_link span {
 	float:left;
 	display:block;
-	padding:0 24px;
+	padding:0 4px;
+	font-size: inherit;
+	height: inherit;
+	line-height: inherit;
+	text-transform: inherit;
+	text-decoration: inherit;
+	color: inherit;
 }
-
 
 #strumet_header #nav li:hover {
 	position:relative;
@@ -113,6 +148,7 @@
 	display: none;
     padding: 0;
     list-style: none;
+	font-family: inherit;
 }
 
 #strumet_header #nav li:hover ul.sub li a {
@@ -125,4 +161,21 @@
     text-decoration: none;
 	background: rgba(227, 227, 227, 1);
 	margin: 1px 0;
+	font-weight: inherit;
+	font-weight: inherit;
 }
+
+#strumet_footer {
+	clear: both;
+	width: 100%;
+	display: inline-block;
+	border: solid #272727;
+	border-width: 1px 0 0 0;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #272727;
+	background: white;
+}
+
