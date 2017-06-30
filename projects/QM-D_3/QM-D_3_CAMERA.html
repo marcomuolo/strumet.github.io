@@ -2,12 +2,60 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Test page</title>
+		<title>AMBIENTE CAMERA</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-<h1 id="primo_h1" class="prima_parte">Quinta Monroy Duplex-Camera da letto</h1>
-	<h2 id="prima parte">Proposta di arredo per la camera da letto</h2>
+<h1 id="primo_h1" class="prima_parte">AMBIENTE CAMERA</h1>
+<h1 id="secondo_h1" class="seconda_parte">Proposta di arredo per la camera da letto</h1>
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+     <a href="pianta camera.jpg"><img src="QM-D_3_CAMERA.jpg" style="width:100%" alt="My test image"></a>
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="QM-D_3_CAMERA.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="QM-D_3_CAMERA.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 	 <a href="QM-D_3_CAMERA.pdf"><img src="QM-D_3_CAMERA.jpg" alt="My test image"></a>
 	<h1 id="secondo_h1" class="seconda_parte">Complementi di arredo utilizzati</h1>
 		<h2 id="seconda parte"><a href="http://www.ikea.com/it/it/catalog/products/00185065/">Letto FJELLSE no.001.850.65 </a></h2>
