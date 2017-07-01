@@ -23,7 +23,7 @@ background-image: linear-gradient(to bottom top, #FFFFFF 0%, #AACFEF 100%);
 #fixed-menu{
   position: fixed;
   top: 30%;
-  right: 10%;
+  right: 0;
   background: #e0f7fa;
   padding: 2px 8px;
   border: 1px solid #DEDEDE;
