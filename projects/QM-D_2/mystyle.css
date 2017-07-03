@@ -88,6 +88,13 @@ span.foto4{
   margin-left: 9%;
 }
 
+p.didascaliafoto{
+  position: relative;
+  font-size: 110%;
+  margin-top: 6%;
+  font-style: italic;
+}
+
 div.proposta{
 	position: relative;
 	font-weight: bold;
