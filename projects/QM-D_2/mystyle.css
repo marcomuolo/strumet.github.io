@@ -142,6 +142,15 @@ content:url(imm/camera.jpg);
   margin-left: 15%;
 }
 
+div.camera1{
+content:url(imm/camera1.jpg);
+  position: relative;
+  max-width:70%;
+  max-height:70%;
+  margin-left: 15%;
+  margin-top: 6%;
+}
+
 p.arredi{
   position: relative;
   font-size: 250%;
@@ -172,6 +181,59 @@ span.listaSx{
 img.imgSx{
   float: left;
   height: 60%;
+}
+
+span.HEMNES_799-293-41-001{
+  content:url(imm/HEMNES_799-293-41-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.HEMNES_799-293-41-002{
+    content:url(imm/HEMNES_799-293-41-002.jpg);
+      position: relative;
+      width:45%;
+      height:45%;
+      margin-left:9%;
+      margin-top: 6%;
+}
+
+span.HEMNES_202-004-56-001{
+  content:url(imm/HEMNES_202-004-56-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+span.HEMNES_502-512-70-001{
+  content:url(imm/HEMNES_202-004-56-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+span.TARVA_902-196-12-001{
+  content:url(imm/TARVA_902-196-12-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.TARVA_902-196-12-002{
+    content:url(imm/TARVA_902-196-12-002.jpg);
+      position: relative;
+      width:45%;
+      height:45%;
+      margin-left:9%;
+      margin-top: 6%;
 }
 
 div.immDx{
