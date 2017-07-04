@@ -274,3 +274,53 @@ content:url(imm/cucina.jpg);
   max-height:70%;
   margin-left: 15%;
 }
+div.QM-D_2_STUDIO{
+content:url(imm/QM-D_2_STUDIO.jpg);
+  position: relative;
+  max-width:70%;
+  max-height:70%;
+  margin-left: 15%;
+}
+
+p.descrizionestudio{
+  position: relative;
+  font-size: 180%;
+  margin-top: 6%;
+  font-style: italic;
+}
+
+span.KALLAX_302-758-61{
+  content:url(imm/KALLAX_302-758-61.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+span.MICKE_902-130-78-001{
+  content:url(imm/MICKE_902-130-78-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+span.MICKE_502-507-13-001{
+  content:url(imm/MICKE_502-507-13-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+span.LILLHOJDEN_402-387-12{
+  content:url(imm/LILLHOJDEN_402-387-12.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
