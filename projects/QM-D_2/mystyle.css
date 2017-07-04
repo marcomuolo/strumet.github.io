@@ -88,6 +88,13 @@ span.foto4{
   margin-left: 9%;
 }
 
+p.didascaliafoto{
+  position: relative;
+  font-size: 110%;
+  margin-top: 6%;
+  font-style: italic;
+}
+
 div.proposta{
 	position: relative;
 	font-weight: bold;
@@ -127,10 +134,143 @@ p.presentazione{
   font-style: italic;
 }
 
+p.descrizionecamera{
+  position: relative;
+  font-size: 180%;
+  margin-top: 6%;
+  font-style: italic;
+}
+
 div.camera{
 content:url(imm/camera.jpg);
   position: relative;
   max-width:70%;
   max-height:70%;
-  margin-left: 15%
+  margin-left: 15%;
+}
+
+div.camera1{
+content:url(imm/camera1.jpg);
+  position: relative;
+  max-width:70%;
+  max-height:70%;
+  margin-left: 15%;
+  margin-top: 6%;
+}
+
+p.arredi{
+  position: relative;
+  font-size: 250%;
+  margin-top: 6%;
+  text-align: center;
+  font-weight: bold;
+}
+
+div.immSx{
+  overflow: hidden;
+  margin-top: 6%;
+  font-size: 170%;
+}
+
+span.nameSx{
+  margin-left: 3%;
+}
+
+span.descSx{
+  margin-left: 3%;
+  text-decoration: underline;
+}
+
+span.listaSx{
+  margin-left: 15%;
+}
+
+img.imgSx{
+  float: left;
+  height: 60%;
+}
+
+span.HEMNES_799-293-41-001{
+  content:url(imm/HEMNES_799-293-41-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.HEMNES_799-293-41-002{
+    content:url(imm/HEMNES_799-293-41-002.jpg);
+      position: relative;
+      width:45%;
+      height:45%;
+      margin-left:9%;
+      margin-top: 6%;
+}
+
+span.HEMNES_202-004-56-001{
+  content:url(imm/HEMNES_202-004-56-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+span.HEMNES_502-512-70-001{
+  content:url(imm/HEMNES_502-512-70-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+span.TARVA_902-196-12-001{
+  content:url(imm/TARVA_902-196-12-001.jpg);
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.TARVA_902-196-12-002{
+    content:url(imm/TARVA_902-196-12-002.jpg);
+      position: relative;
+      width:45%;
+      height:45%;
+      margin-left:9%;
+      margin-top: 6%;
+}
+
+div.immDx{
+  overflow: hidden;
+  margin-top: 6%;
+  font-size: 170%;
+}
+
+img.imgDx{
+  float: right;
+  height: 60%;
+}
+
+span.nameDx{
+  margin-left: 20%;
+}
+
+span.descDx{
+  margin-left: 20%;
+  text-decoration: underline;
+}
+
+span.listaDx{
+  margin-left: 40%;
+}
+
+div.cucina{
+content:url(imm/cucina.jpg);
+  position: relative;
+  max-width:70%;
+  max-height:70%;
+  margin-left: 15%;
 }
