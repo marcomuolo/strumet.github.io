@@ -266,3 +266,11 @@ span.descDx{
 span.listaDx{
   margin-left: 40%;
 }
+
+div.cucina{
+content:url(imm/cucina.jpg);
+  position: relative;
+  max-width:70%;
+  max-height:70%;
+  margin-left: 15%;
+}
