@@ -169,7 +169,7 @@ nav a, nav span {
 /* || image settings */
 img {
     display: block;
-    margin: auto;
+    margin: inherit;
     width: 100%;
 }
 
