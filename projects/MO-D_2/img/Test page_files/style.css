@@ -7,11 +7,9 @@ html, body {
 		margin-left: 30px;
 }
 
-
-
 h1#prima_parte {
   border-width: thin;
-  color: rgb(83,107,81);
+  color: green;
   font-weight:normal;
   font-size: 30px
 
@@ -62,7 +60,7 @@ div {
   color: black;
 }
 h3,h5 {
-  color: rgb(83,107,81);
+  color: green;
   font-weight:normal;
   font-size: 30px
 }
@@ -152,7 +150,7 @@ img#foto_grande {
 
 
 img#foto_destra {
-  height: 247px
+  height: 249px
 }
 
 img#foto_media {
@@ -177,8 +175,4 @@ figcaption.grande {
 figcaption.grande {
   text-align: center;
 
-}
-
-li#arredi {
-  color: black
 }
