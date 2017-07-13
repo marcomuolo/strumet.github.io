@@ -23,7 +23,7 @@ background-image: linear-gradient(to bottom top, #FFFFFF 0%, #AACFEF 100%);
 #fixed-menu{
   position: fixed;
   top: 30%;
-  right: 10%;
+  right: 0;
   background: #e0f7fa;
   padding: 2px 8px;
   border: 1px solid #DEDEDE;
@@ -89,22 +89,28 @@ div#fixed-menu .titoletti{
   margin-top: 0px;
   margin-bottom: 0px;
 }
+div#fixed-menu i{
+  font-size: 22px;
+}
 .div-parent-img{
   display:table;
   width:100%;
 }
 
+.text-center{
+  text-align: center;
+}
+
 /*CLASSI VALERIA*/
 
 .paragrafo1{
-  width:80%;
-margin-top:0;
+  margin-top:0;
 }
 
 
 .pianta{
-  margin-left:10px;
-  width:250px;
+  width: 87%;
+  margin-left: 10px;
 }
 
 .descrizione{
@@ -141,6 +147,15 @@ float:left;
 .fase3{
   width:25%;
   margin-top:20px;
+}
+
+.sezioni{
+  margin-left:10px;
+  width:87%;
+}
+
+.tavola-arredi{
+  margin-left: 10px;
 }
 
 /*/*//*/*//*/*//*//**//*/*/
