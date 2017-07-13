@@ -257,7 +257,7 @@ span.TARVA_902-196-12-002 > img{
       margin-top: 6%;
 }
 
-/* CUCINA.html */
+/* STUDIO.html */
 
 div.cucina{
 content:url(imm/cucina.jpg);
@@ -290,12 +290,12 @@ span.KALLAX_302-758-61{
     margin-top: 6%;
 }
 
-span.MICKE_902-130-78-001{
-  content:url(imm/MICKE_902-130-78-001.jpg);
+span.MICKE_902-130-78-001 > img{
+  content:url(imm/m_902-130-78-001.jpg);
     position: relative;
-    width:45%;
-    height:45%;
-    margin-left:25%;
+    width:30%;
+    height:30%;
+    margin-left:50%;
     margin-top: 6%;
 }
 
