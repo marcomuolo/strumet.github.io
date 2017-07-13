@@ -7,51 +7,83 @@
 	</head>
 	<body>
 <h1 id="primo_h1" class="prima_parte">AMBIENTE CUCINA</h1>
-<h2 id="prima parte">Proposta progettuale</h2>
+<h1 id="secondo_h1" class="seconda_parte">Proposta di arredo per la cucina</h1>
 
-<p class="seconda_parte">Nell'ambiente cucina troviamo una struttura modulare con un mobile di base, un pensile e i dovuti elettrodomestici. A seguire si trovano i disegni esplicativi degli elementi di arredo della cucina.
+<p class="seconda_parte">Nell'ambiente cucina troviamo una struttura modulare con un mobile di base, un pensile e i dovuti elettrodomestici.
 </p>
 
-<ul>
-				<li>
-					<h3>Mobile base con ante e cassetti</h3>
-					 <a href="img cucina/A701grande.jpg"><img src="img cucina/A701piccola.jpg" alt="PROVA"></a>
-					 <a href="img cucina/A702grande.jpg"><img src="img cucina/A702piccola.jpg" alt="PROVA"></a>
-					 <a href="img cucina/A703grande.jpg"><img src="img cucina/A703piccola.jpg" alt="PROVA"></a>
-				</li>
-				<li>
-					<h3>Mobile base con ante e cassetti</h3>
-					 <a href="img cucina/A704grande.jpg"><img src="img cucina/A704piccola.jpg" alt="PROVA"></a>
-					 <a href="img cucina/A705grande.jpg"><img src="img cucina/A705piccola.jpg" alt="PROVA"></a>
-					 <a href="img cucina/A706grande.jpg"><img src="img cucina/A706piccola.jpg" alt="PROVA"></a>
-				</li>
-				<li>
-					<h3>Frigorifero</h3>
-					 <a href="img cucina/A707grande.jpg"><img src="img cucina/A707piccola.jpg" alt="PROVA"></a>
-				</li>
-				<li>
-					<h3>Lavello da incasso</h3>
-					 <a href="img cucina/A708grande.jpg"><img src="img cucina/A708piccola.jpg" alt="PROVA"></a>
-				</li>
-				<li>
-					<h3>Cappa</h3>
-					 <a href="img cucina/A709grande.jpg"><img src="img cucina/A709piccola.jpg" alt="PROVA"></a>
-				</li>
-				<li>
-					<h3>Piano cottura a gas</h3>
-					 <a href="img cucina/A710grande.jpg"><img src="img cucina/A710piccola.jpg" alt="PROVA"></a>
-				</li>
-				<li>
-					<h3>Forno</h3>
-					 <a href="img cucina/A711grande.jpg"><img src="img cucina/A711piccola.jpg" alt="PROVA"></a>
-				</li>
-				<li>
-					<h3>Rubinetto</h3>
-					 <a href="img cucina/A712grande.jpg"><img src="img cucina/A712piccola.jpg" alt="PROVA"></a>
-				</li>
+<div class="slideshow-container">
 
-				<p class="seconda_parte"> A questo punto è possibile effettuare una proposta sugli accessori che completano l'ambiente.
-				</p>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <a href=""><img src="" style="width:100%"></a>
+  </div>
 
-						<h3>Gli accessori</h3>
-						 <a href="img cucina/A401grande.jpg"><img src="img cucina/A401piccola.jpg" alt="PROVA"></a>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <a href=""><img src="" style="width:100%"></a>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <a href=""><img src="" style="width:100%"></a>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <a href=""><img src="" style="width:100%"></a>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <a href=""><img src="" style="width:100%"></a>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<h1 id="secondo_h1" class="seconda_parte">Complementi di arredo utilizzati</h1>
+		<h2 id="seconda parte"><a href="http://www.ikea.com/it/it/catalog/products/30326808/">Mobile base con ante e cassetti KNOXHULT no.303.268.08</a></h2>
+		 <a href=""><img src="" alt="My test image"></a>
+<p id=cucina><a href="" download="KNOXHULT no.303.268.08.pdf">Clicca qui per scaricare il file PDF dei disegni tecnici</a></p>
+			
