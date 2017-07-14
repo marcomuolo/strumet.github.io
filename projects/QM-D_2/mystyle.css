@@ -257,15 +257,81 @@ span.TARVA_902-196-12-002 > img{
       margin-top: 6%;
 }
 
-/* STUDIO.html */
+/* CUCINA.html */
 
-div.cucina{
-content:url(imm/cucina.jpg);
+div.cucina > img{
   position: relative;
   max-width:70%;
   max-height:70%;
   margin-left: 15%;
 }
+
+span.METOD_799-180-45-A721 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.METOD_799-180-45-A722 > img{
+        position: relative;
+        width:45%;
+        height:45%;
+        margin-left:9%;
+        margin-top: 6%;
+}
+
+span.METOD_799-180-45-A723 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+span.KNOXHULT_703-268-06-A711 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.KNOXHULT_703-268-06-A712 > img{
+        position: relative;
+        width:45%;
+        height:45%;
+        margin-left:9%;
+        margin-top: 6%;
+}
+
+span.KNOXHULT_303-268-08-A701 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.KNOXHULT_303-268-08-A702 > img{
+        position: relative;
+        width:45%;
+        height:45%;
+        margin-left:9%;
+        margin-top: 6%;
+}
+
+span.KNOXHULT_303-268-08-A703 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+/* STUDIO.html */
+
 div.QM-D_2_STUDIO{
 content:url(imm/QM-D_2_STUDIO.jpg);
   position: relative;
