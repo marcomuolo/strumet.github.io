@@ -1,181 +1,93 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i');
-
-#strumet_body{
-	margin: 0;
+head{
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200');
 }
 
-#strumet_header{
-	text-align: center;
-	padding: 10px;
-	border: solid #272727;
-	border-width: 0 0 1px 0;
-	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: initial;
-	color: #272727;
-	background: white;
-	display: block;
-}
+@font-face{  font-family: manifesto;
+  src: url(MANIFESTO.ttf);}
+@font-face{  font-family: simplifica;
+  src: url(SIMPLIFICA.ttf);}
+@font-face{  font-family: aqua;
+  src: url(aqua.ttf);}
 
-#strumet_header h1 {
-	font-weight: 300;
-	letter-spacing: .1em;
-	font-size: 2.25em;
-	margin: 10px 0 5px;
-	font-family: 'Open Sans', sans-serif;
-	font-style: normal;
-	color: black;
-}
-
-#strumet_header a:link,
-#strumet_header a:visited {
-	color: #272727;
-}
-
-#strumet_header a:hover,
-#strumet_header a:active {
-	color: rgb(127, 127, 127);
-}
-
-#strumet_header p.subheading {
-	letter-spacing: 0.1em;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 0px;
-	font-size: inherit;
-}
-
-#strumet_header p.subheading em {
-	font-size: 12px;
-}
-
-
-#strumet_header nav {
-	display: inline-block;
-	margin: 0 auto;
-	background-color: inherit;
-	height: inherit;
-	padding: 0px;
-}
-
-#strumet_header ul#nav {
-	padding: 0;
-	list-style: none;
-	position: relative;
-	font-size: 12px;
-	z-index: 500;
-	font-family: unset;
-	display: inherit;
-}
-
-#strumet_header #nav li.top {
-	display: block;
-	float: left;
-	margin: 0 1px;
-	background: #fff;
-	border: solid rgb(39, 39, 39);
-	border-width: 0 0 0 1px;
-	font-size: inherit;
-	line-height: inherit;
-}
-
-#strumet_header #nav li.top:first-child {
-	border-width: 0 0 0 0;
-}
-
-
-#strumet_header #nav li a.top_link {
-	display: block;
-	float: left;
-	cursor: pointer;
-	font-size: inherit;
-	height: inherit;
-	line-height: inherit;
-	text-transform: inherit;
-	text-decoration: inherit;
-	font-weight: inherit;
-}
-
-
-#strumet_header #nav li a.top_link span {
-	float:left;
-	display:block;
-	padding:0 4px;
-	font-size: inherit;
-	height: inherit;
-	line-height: inherit;
-	text-transform: inherit;
-	text-decoration: inherit;
-	color: inherit;
-}
-
-#strumet_header #nav li:hover {
-	position:relative;
-	z-index:200;
-}
-
-
-#strumet_header #nav li:hover ul.sub {
-	z-index:300;
-	top: 0;
-	left: 0px;
-	display: block;
-}
-
-#strumet_header #nav li:hover ul.sub li {
-	display:block;
-	position:relative;
-}
-
-#strumet_header #nav li:hover ul.sub li a {
-	display:block;
-}
-
-#strumet_header #nav li ul.sub li a.fly {
-	background: white;
-}
-#strumet_header #nav li:hover ul.sub li a:hover,
-#strumet_header #nav li:hover ul.sub li a.fly:hover {
-	background: rgba(187, 187, 187, 1);
-	color:#fff;
+	head {
+		@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200');
 	}
 
-#strumet_header #nav ul,
-#strumet_header #nav li:hover ul ul,
-#strumet_header #nav li:hover li:hover ul ul,
-#strumet_header #nav li:hover li:hover li:hover ul ul,
-#strumet_header #nav li:hover li:hover li:hover li:hover ul ul {
-    position: absolute;
-	display: none;
-    padding: 0;
-    list-style: none;
-	font-family: inherit;
-}
-
-#strumet_header #nav li:hover ul.sub li a {
-    display: block;
-    font-size: 11px;
-    height: 18px;
-    line-height: 18px;
-    text-indent: 5px;
-    color: #000;
-    text-decoration: none;
-	background: rgba(227, 227, 227, 1);
-	margin: 1px 0;
-	font-weight: inherit;
-	font-weight: inherit;
-}
-
-#strumet_footer {
-	clear: both;
-	width: 100%;
-	display: inline-block;
-	border: solid #272727;
-	border-width: 1px 0 0 0;
+ambienti{
+	font-size: 40px;
+	font-family: 'manifesto', sans-serif;
 	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0 0;
-	font-family: 'Open Sans', sans-serif;
-	color: #272727;
-	background: white;
+	word-spacing: 100px;
 }
 
+ambienti > a {
+	color: black;
+	text-decoration: none;
+}
+
+menu{
+	background-color: #212121;
+	font-size: 20px;
+	font-family: 'manifesto', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	word-spacing: 15px;
+}
+
+menu > a {
+	color: white;
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'manifesto', sans-serif;
+	display: center;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
+
+
+}html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #faf0e6;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3rem;
+	font-family: manifesto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.2rem;
+  text-align: center;
+	font-family: manifesto;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+body > * {
+
+  padding: 1%;
+}
+
+main, aside, section {
+  background-color: #ffffff;
+  padding: 1%;
+}
