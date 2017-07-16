@@ -356,8 +356,8 @@ span.KALLAX_302-758-61 > img{
     margin-top: 6%;
 }
 
-span.MICKE_902-130-78-001 > img{
-  content:url(imm/m_902-130-78-001.jpg);
+span.MICKE_902-130-78 > img{
+  content:url(imm/902-130-78-001.jpg);
     position: relative;
     width:45%;
     height:45%;
@@ -381,4 +381,14 @@ span.LILLHOJDEN_402-387-12 > img{
     height:45%;
     margin-left:25%;
     margin-top: 6%;
+}
+div.immmDx{
+  overflow: hidden;
+  margin-top: 6%;
+  font-size: 170%;
+}
+
+img.imggDx{
+  float: right;
+  height: 60%;
 }
