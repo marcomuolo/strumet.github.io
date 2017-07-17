@@ -62,10 +62,14 @@ p.seconda_descrizione{
 }
 
 img.home{
-  width: 75%;
+  width: 85%;
 }
 .pull-left{
   float:left;
+}
+
+.pull-right{
+  float:right;
 }
 
 figcaption{

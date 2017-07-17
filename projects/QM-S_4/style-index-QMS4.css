@@ -5,7 +5,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #faf0e6;
+  background-color: #b0c4de;
 }
 
 body {
@@ -36,7 +36,7 @@ ul#menu {
 
 ul#menu li {
     background-color: #ffffff;
-    border-left: 5px solid #faf0e6;
+    border-left: 5px solid #b0c4de;
     display: block;
     width: 150px;
     height: 40px;
