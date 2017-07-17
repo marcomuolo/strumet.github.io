@@ -61,6 +61,13 @@ p2{
   color:#009999;
 }
 
+p3{
+  font-family:'Limelight', cursive;
+  font-size:2rem;
+  line-height:normal
+  text-align:justify;
+}
+
 img{
   max-width: 800px;
   max-height: 800px;

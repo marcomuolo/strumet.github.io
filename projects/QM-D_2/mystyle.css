@@ -257,15 +257,81 @@ span.TARVA_902-196-12-002 > img{
       margin-top: 6%;
 }
 
-/* STUDIO.html */
+/* CUCINA.html */
 
-div.cucina{
-content:url(imm/cucina.jpg);
+div.cucina > img{
   position: relative;
   max-width:70%;
   max-height:70%;
   margin-left: 15%;
 }
+
+span.METOD_799-180-45-A721 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.METOD_799-180-45-A722 > img{
+        position: relative;
+        width:45%;
+        height:45%;
+        margin-left:9%;
+        margin-top: 6%;
+}
+
+span.METOD_799-180-45-A723 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+span.KNOXHULT_703-268-06-A711 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.KNOXHULT_703-268-06-A712 > img{
+        position: relative;
+        width:45%;
+        height:45%;
+        margin-left:9%;
+        margin-top: 6%;
+}
+
+span.KNOXHULT_303-268-08-A701 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:0%;
+    margin-top: 6%;
+}
+
+span.KNOXHULT_303-268-08-A702 > img{
+        position: relative;
+        width:45%;
+        height:45%;
+        margin-left:9%;
+        margin-top: 6%;
+}
+
+span.KNOXHULT_303-268-08-A703 > img{
+    position: relative;
+    width:45%;
+    height:45%;
+    margin-left:25%;
+    margin-top: 6%;
+}
+
+/* STUDIO.html */
+
 div.QM-D_2_STUDIO{
 content:url(imm/QM-D_2_STUDIO.jpg);
   position: relative;
@@ -281,7 +347,7 @@ p.descrizionestudio{
   font-style: italic;
 }
 
-span.KALLAX_302-758-61{
+span.KALLAX_302-758-61 > img{
   content:url(imm/KALLAX_302-758-61.jpg);
     position: relative;
     width:45%;
@@ -290,16 +356,16 @@ span.KALLAX_302-758-61{
     margin-top: 6%;
 }
 
-span.MICKE_902-130-78-001 > img{
-  content:url(imm/m_902-130-78-001.jpg);
+span.MICKE_902-130-78 > img{
+  content:url(imm/902-130-78-001.jpg);
     position: relative;
-    width:30%;
-    height:30%;
-    margin-left:50%;
+    width:45%;
+    height:45%;
+    margin-left:25%;
     margin-top: 6%;
 }
 
-span.MICKE_502-507-13-001{
+span.MICKE_502-507-13-001 > img{
   content:url(imm/MICKE_502-507-13-001.jpg);
     position: relative;
     width:45%;
@@ -308,11 +374,21 @@ span.MICKE_502-507-13-001{
     margin-top: 6%;
 }
 
-span.LILLHOJDEN_402-387-12{
+span.LILLHOJDEN_402-387-12 > img{
   content:url(imm/LILLHOJDEN_402-387-12.jpg);
     position: relative;
     width:45%;
     height:45%;
     margin-left:25%;
     margin-top: 6%;
+}
+div.immmDx{
+  overflow: hidden;
+  margin-top: 6%;
+  font-size: 170%;
+}
+
+img.imggDx{
+  float: right;
+  height: 60%;
 }
