@@ -21,5 +21,23 @@ nav ul ul li:first-child a{border-top: solid 2px #000;}
 nav ul li:hover a{background: #FFF; color: #000; text-decoration: none; transition: 0.5s;}
 
 nav ul li li:hover a{background: #000; color: #FFF;}
-h1 { color:black;  text-align: center;float:down;text-shadow: 0px 0px #CCC;}
-h2 {color: black; text-align:right;}
+h1 { color:black;font-family: sans-serif; text-align: center;text-shadow: 0px 0px #CCC;}
+h2 {color: black;font-family: sans-serif;text-align:right;}
+h3 {color: black;font-family: sans-serif;font-size: 40px;align:left;}
+
+h4 {color: black; font-family: sans-serif; font-size: 12px;font-weight: lighter;align:center;}
+h5 {color: black; font-family: sans-serif; font-size: 22px;font-weight: lighter;text-align: center;}
+
+
+.PRIMA { float: left; margin-right: 5px; padding-right: 5px}
+.SECONDA {float: right; margin-left:5px;padding-left: 5px; }
+.TESTO { align: center;}
+.TESTOSEC { width: 275px; height: 350px;margin-left: 20px;}
+.ARA {width: 427px; height: 312px;float: right;margin: 5px;padding: 5px;}
+.IM {float: right;margin: 5px;padding: 5px;}
+.TITLE3 {margin-left: 50px;}
+.SUBTITLE {margin-left: 50px;float: left;position: absolute;top: 1065px;}
+.TESTO3 {width: 500px;}
+.PIANTA1 {margin-left: 370px}
+.LATODW {float: right;margin-left: 10px;}
+.TESTOSTUDIO{ text-align: center;width: 300px;display: block;margin-left: auto;margin-right: auto;border-color: black;border-style: solid;border-width: 1px}

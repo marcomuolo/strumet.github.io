@@ -6,12 +6,19 @@ html, body {
 		margin-bottom: 10px;
 		margin-left: 30px;
 }
+html {
+  font-family: ;
+
+}
+
+
 
 h1#prima_parte {
   border-width: thin;
-  color: green;
+  color: rgb(97,141,179);
   font-weight:normal;
   font-size: 30px
+
 
 
 }
@@ -60,7 +67,7 @@ div {
   color: black;
 }
 h3,h5 {
-  color: green;
+  color: rgb(134,192,220);
   font-weight:normal;
   font-size: 30px
 }
@@ -150,7 +157,7 @@ img#foto_grande {
 
 
 img#foto_destra {
-  height: 249px
+  height: 247px
 }
 
 img#foto_media {
@@ -160,6 +167,8 @@ img#foto_media {
 
 img#foto_grandissima {
   height: 700px
+
+
 }
 
 h3 {
@@ -175,4 +184,16 @@ figcaption.grande {
 figcaption.grande {
   text-align: center;
 
+}
+
+li#arredi {
+  color: black
+}
+
+p#titoletti{
+  color: rgb(134,192,220);
+}
+
+a#elenco {
+  text-decoration: inherit;
 }
