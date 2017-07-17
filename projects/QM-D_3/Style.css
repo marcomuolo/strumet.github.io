@@ -92,7 +92,7 @@ p.didascalia{
   text-align:right;
 }
 
-p#camera{
+p#camera, p#cucina{
 font-size: 20px;
 text-align: center;
 }
