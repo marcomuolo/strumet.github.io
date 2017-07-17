@@ -347,7 +347,7 @@ p.descrizionestudio{
   font-style: italic;
 }
 
-span.KALLAX_302-758-61{
+span.KALLAX_302-758-61 > img{
   content:url(imm/KALLAX_302-758-61.jpg);
     position: relative;
     width:45%;
@@ -356,16 +356,16 @@ span.KALLAX_302-758-61{
     margin-top: 6%;
 }
 
-span.MICKE_902-130-78-001 > img{
-  content:url(imm/m_902-130-78-001.jpg);
+span.MICKE_902-130-78 > img{
+  content:url(imm/902-130-78-001.jpg);
     position: relative;
-    width:30%;
-    height:30%;
-    margin-left:50%;
+    width:45%;
+    height:45%;
+    margin-left:25%;
     margin-top: 6%;
 }
 
-span.MICKE_502-507-13-001{
+span.MICKE_502-507-13-001 > img{
   content:url(imm/MICKE_502-507-13-001.jpg);
     position: relative;
     width:45%;
@@ -374,11 +374,21 @@ span.MICKE_502-507-13-001{
     margin-top: 6%;
 }
 
-span.LILLHOJDEN_402-387-12{
+span.LILLHOJDEN_402-387-12 > img{
   content:url(imm/LILLHOJDEN_402-387-12.jpg);
     position: relative;
     width:45%;
     height:45%;
     margin-left:25%;
     margin-top: 6%;
+}
+div.immmDx{
+  overflow: hidden;
+  margin-top: 6%;
+  font-size: 170%;
+}
+
+img.imggDx{
+  float: right;
+  height: 60%;
 }
