@@ -30,7 +30,9 @@ p, li {
    font-family: sans-serif;
    font-size: 1.6rem;
 }
-
+li {
+  color: black;
+}
 }
 nav {
   height: 50px;
