@@ -147,6 +147,7 @@ h2#camera {
 }
 
 img#foto_grande {
+	margin-left: 130px;
   height: 600px
 }
 
@@ -161,7 +162,8 @@ img#foto_media {
 }
 
 img#foto_grandissima {
-  height: 700px
+	margin-left: 140px;
+	height: 700px
 }
 
 h3 {
