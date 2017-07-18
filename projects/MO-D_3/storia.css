@@ -1,0 +1,200 @@
+/* STRUTTURA BASE PER TUTTI GLI HTML */
+head {
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200');
+</style>
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200');
+</style>
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200');
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: lavender;
+}
+
+body {
+     font-family: 'Montserrat', cursive, sans-serif;
+}
+
+div.align{
+  float: left;
+  clear: none;
+}
+
+a{
+color: inherit;
+text-decoration:none;
+}
+
+span.elenco{
+  position: center;
+  background: #ABCDEF;
+  width: auto;
+  height: auto;
+  font-size: 250%;
+  margin-top: 1%;
+  margin-left: 1%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.all{
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+h1{
+  position: relative;
+  font-size: 600%;
+  text-align: center;
+}
+
+/* INDEX.html */
+
+span.pan > img{
+    position: relative;
+	-webkit-box-align:center;
+    -webkit-box-pack:center;
+    display:-webkit-box;
+    max-width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+p.descrizione{
+  position: relative;
+  font-size: 90%;
+  margin-top: 6%;
+  font-style: italic;
+}
+
+span.foto1 > img{
+  margin-top: 6%;
+  width: 47%;
+}
+span.foto2 > img{
+  width: 47%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+}
+span.foto3 > img{
+  width: 47%;
+  margin-bottom: 17%;
+}
+span.foto4 > img{
+  width: 40%;
+  margin-top: 3%;
+  margin-left: 9%;
+}
+
+p.didascaliafoto{
+  position: relative;
+  font-size: 110%;
+  margin-top: 6%;
+  font-style: italic;
+}
+
+div.proposta{
+	position: relative;
+	font-weight: bold;
+	font-size: 400%;
+	text-align: center;
+	margin-top: 6%;
+}
+
+div.prop1 > img{
+  margin-top: 6%;
+  position: relative;
+  max-width:100%;
+  max-height:100%;
+}
+
+div.prop2 > img{
+  margin-top: 2%;
+  max-width:100%;
+  max-height:100%;
+}
+
+div.prop3 > img{
+  margin-top: 2%;
+  position: relative;
+  max-width:100%;
+  max-height:100%;
+  padding-bottom: 2%;
+}
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+	nav ul {
+	font-family: 'Montserrat', sans-serif;
+	background: #efefef;
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+	nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+
+	nav ul li a {
+		display: block; padding: 25px 100px;
+		color: #757575; text-decoration: none;
+	}
+	nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none;
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+			nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
+h1#prima_parte {
+  font-family: 'Montserrat', cursive, sans-serif;
+  border-width: thin;
+  color: GREY;
+  font-weight:normal;
+  font-size: 30px

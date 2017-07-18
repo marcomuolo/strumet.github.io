@@ -38,11 +38,17 @@ h1{
   color:black;
 }
 h2{
-  text-align:center;
+
   font-family:sans-serif;
   font-size:3rem;
   line-height:normal;
 }
+
+h2{
+  position:relative;
+
+}
+
 
 
 p1{
@@ -82,4 +88,33 @@ div {
     padding-left:  25px;
     margin: 25px;
 
+}
+ul1{
+list-style-type:none;
+margin:1;
+padding:1;
+}
+ul1{
+  font-size:2rem;
+  font-family:sans-serif;
+  text-align: center;
+}
+li
+{
+display:inline;
+}
+hr{
+  width: 800px
+
+
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+div{
+  border-color: :#E6E6FA;
+  margin:0 auto;
+text-align: left;
 }
