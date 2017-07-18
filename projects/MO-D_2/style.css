@@ -85,7 +85,8 @@ figcaption.seconda_didascalia {
 }
 
 img.immagini {
-  height: 340px
+  width: : 3px
+  width: 3px
 }
 
 ul#menu {
@@ -96,12 +97,16 @@ ul#menu {
     list-style: none;
 }
 
+img#img {
+  height: 3px
+}
+
 ul#menu li {
     color: grey
     display: block;
-    width: 150px;
+    width: 100px;
     height: 1px;
-    margin: 39px;
+    margin: 50px;
     float: left; /* elementi su singola riga */
 }
 
@@ -110,7 +115,7 @@ ul#menu li a {
     color: grey
     line-height: 30px;
     text-decoration: none;
-    width: 150px;
+    width: 100px;
     height: 30px;
     text-align: center;
 }
