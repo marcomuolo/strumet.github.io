@@ -17,7 +17,7 @@ html, body {
 h1#prima_parte {
   font-family: 'Montserrat', cursive, sans-serif;
   border-width: thin;
-  color: rgb(83,107,81);
+  color: grey;
   font-weight:normal;
   font-size: 30px
 
@@ -62,7 +62,7 @@ div {
   color: black;
 }
 h3,h5 {
-  color: rgb(83,107,81);
+  color: grey;
   font-weight:normal;
   font-size: 30px
 }
@@ -143,10 +143,12 @@ figcaption#ikea {
 
 h2#camera {
   font-size: 20px
+	color: grey
 
 }
 
 img#foto_grande {
+	margin-left: 130px;
   height: 600px
 }
 
@@ -161,7 +163,8 @@ img#foto_media {
 }
 
 img#foto_grandissima {
-  height: 700px
+	margin-left: 140px;
+	height: 700px
 }
 
 h3 {
