@@ -40,6 +40,11 @@ menu > a {
 	text-decoration: none;
 }
 
+.text{
+	font-family: arial;
+	font-weight: bold;
+}
+
 h1{
 	font-family: 'manifesto', sans-serif;
 	display: center;
