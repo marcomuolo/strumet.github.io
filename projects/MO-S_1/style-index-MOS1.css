@@ -83,3 +83,23 @@ div {
     margin: 25px;
 
 }
+ul1{
+list-style-type:none;
+margin:1;
+padding:1;
+}
+ul1{
+  font-size:2rem;
+  font-family:sans-serif;
+  text-align: center;
+}
+li
+{
+display:inline;
+}
+
+ul1{
+  border-style: double;
+  border-color: #D1BBFF;
+
+}
