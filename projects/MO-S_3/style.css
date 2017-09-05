@@ -1,0 +1,55 @@
+body{font-family: inherit;}
+
+nav{background: #FFFFFF; height: 12px,width:100%; position: block; top: 0; left: 0;}
+
+nav ul{list-style: none; margin: 0 auto; padding: 0; width: 100%; max-width: 2000px;}
+
+
+html, body {margin: 0;padding: 0;}
+
+html {font-size: 10px;background-color: #FFFFFF;}
+
+body {width: 70%;min-width: 800px;margin: 0 auto;}
+
+
+h1, h2, h3 {font-family: 'helvetica', cursive;color: #000000;}
+
+p, input, li {font-family: 'helvetica', sans-serif;color: #000000;}
+
+h1 {font-size: 4rem;text-align: center; text-shadow: 0px 0px 0px black;}
+
+h2 {font-size: 3rem;text-align: center;}
+
+h3 {font-size: 2.2rem;}
+
+p, li {font-size: 1.6rem;line-height: 1.5;}
+
+
+
+
+
+
+
+
+
+nav{background: #B0C4DE; height: 52px; width:100%; position: center; top: 120px; left: 0;}
+
+nav ul{list-style: none; margin: 0 auto;padding: 0; width: 100%; max-width: 1000px;}
+
+nav ul ul{display: none;position: absolute; top: 100%; left: 0; width: 100%;}
+
+nav ul li{position: block; float: left;; width: 20%; text-align: center;}
+
+nav ul li:hover ul{display: block;}
+
+nav ul li li{position: block; float: none; width: 100%; border: none;}
+
+nav ul li a{display: block; text-decoration: none; color: #000000; padding: 15px 25px; font-size: 1.2em; box-sizing: border-box;border-right: solid 1px #faf0e6; border-left: solid 1px #faf0e6;}
+
+nav ul ul li a{font-size: 1rem; border-bottom: solid 1px #faf0e6;}
+
+nav ul ul li:first-child a{border-top: solid 2px #faf0e6;}
+
+nav ul li:hover a {background: #6C7B8B; color: #faf0e6; text-decoration: none; transition: 0.5s;}
+
+nav ul li li:hover a{background: #faf0e6; color:#6C7B8B }
