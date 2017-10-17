@@ -83,7 +83,13 @@ var sl = {
 		'</ul>' + how_to_go_ahead(13),
 	'5_1': '<ul>' +
 		'<li>lanciare il <b><em>rendering</em></b>(<em>Shift+Q</em>)</li>' +
-		'</ul>' + how_to_go_ahead(15),
+		'</ul>' +
+		'<div class="note"><b>NOTA:</b> il calcolo del rendering potrebbe ' +
+		'richiedere diverse ore e pertanto, come indicato in precedenza, si ' +
+		'consiglia di <b>utilizzare la risoluzione 877 x 620</b> per effettuare ' +
+		'le prove necessarie a verificare l\'immagine.<br><b>Lanciare il rendering ' +
+		'alla risoluzione finale (3508 x 2480) solo quando si è certi che l\'' +
+		'immagine prodotta sia corretta</b></div>' + how_to_go_ahead(15),
 	'5_2': '<ul>' +
 		'<li>salvare l\'immagine in formato <b><em>png</em></b> usando <b>il proprio ' +
 		'numero di matricola per nominare il file</b> prodotto</li>' +
